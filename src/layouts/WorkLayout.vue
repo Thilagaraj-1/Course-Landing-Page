@@ -29,7 +29,7 @@
 
 
         <div class=" tbar" >
-            <q-toolbar class="bg-purple text-white shadow-2 rounded-borders glossy">
+            <q-toolbar class=" text-white shadow-2 rounded-borders glossy" style="font-family: copperplate;">
                 <q-btn size="25px"  flat label="ExamsDaily" />
                 <q-btn size="16px" round color="white">
         <q-avatar size="40px" text-color="black">
@@ -57,10 +57,10 @@
       <RouterView />
     </q-page-container>
 
-    <q-footer view="lHh lpr lFf" style="background-color: purple;">
-        <div class="text-center row">
+    <q-footer view="lHh lpr lFf" >
+        <div class="text-center row foot">
 
-          <q-btn align="between" class="btn-fixed-width col" color="accent" label="Enroll Now" icon="flight_takeoff">TNPSC @ 30,000/-</q-btn>
+          <q-btn align="between" class="btn-fixed-width col" label="Enroll Now" icon="flight_takeoff" style="background-color: #05386B;">TNPSC @ 30,000/-</q-btn>
         </div>
     </q-footer>
 </q-layout>
@@ -97,5 +97,9 @@
 .header{
   background-color:white;
 }
+.tbar{
+  background-color: #05386B;
+}
+
 
 </style>
