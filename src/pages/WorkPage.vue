@@ -1,6 +1,6 @@
 <template>
-<q-page style="background-color: pink;">
-    <div class="row " >
+<q-page style="background-color: rgb(186, 225, 250) ;">
+    <div class="row " style="background-color:;">
         <div class="col-12 col-md-6 first">
             <p class="text-h1 cname q-pa-lg" style="font-size: 9vw;">
                 TNPSC Group IV
@@ -14,7 +14,7 @@
         <space />
         <div class="col-12 col-md-6 q-pl-lg">
             <br><br>
-            <q-image class="relative-position"><img class="image1" height="500px" src="https://www.rsquareacademy.in/wp-content/uploads/2023/07/Best_tnpsc_coaching_centre-2.webp" /></q-image>
+            <q-image class="relative-position"><img class="image1" height="500px" src="../assets/main.png" /></q-image>
             <br>
         </div>
 
@@ -22,11 +22,11 @@
     <!-- About -->
     <div>
         <div id="abou">
-            <h4 class="text-center about"><u>About</u></h4>
+            <h4 class="text-center about">About</h4>
         </div>
 
         <div style="display: flex; justify-content: space-evenly;" class="row">
-            <q-card class="my-card text-white col-12 col-md-6 q-pl-lg card" style="background: radial-gradient(circle, #d4c0d9 0%, purple 100%);  width: 500px;">
+            <q-card class="my-card text-white col-12 col-md-6 q-pl-lg card" style="background-color: lightcoral;  width: 500px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
                 <q-card-section>
                     <br>
                     <div class="text-h6 text-center">Highlights Of this Course</div><br>
@@ -41,12 +41,14 @@
                         <li>Make Notes. ...</li><br>
                         <li>Consistent Practice and Revision with Mock Papers.</li><br>
                         <li>Practise TNPSC Group 4 previous year question papers.</li><br>
-                        <li>Read newspaper daily.</li>
+                        <li>Read newspaper daily.</li><br>
+                        <li>Study Many GK books to gain knowledge.</li><br>
+                        <li>Get Study in low noise Environment..</li>
                     </ul>
                 </q-card-section>
             </q-card>
             <br>
-            <q-card class="my-card text-white col-12 col-md-6 q-pl-lg card" style="background: radial-gradient(circle,#d4c0d9 0%, purple 100%); width: 500px;">
+            <q-card class="my-card text-white col-12 col-md-6 q-pl-lg card" style="background: lightcoral; width: 500px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
                 <q-card-section>
                     <br>
                     <div class="text-h6 text-center">ELIGIBILITY</div><br>
@@ -84,34 +86,18 @@
     <!-- Banking -->
     <div class="q-pa-lg">
         <h4 class="text-center about ">Course</h4>
-        <div class="row text-center" style="display: flex; justify-content: space-evenly; font-size: 25px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color:darkmagenta ">
-            <div class="col-12 col-md-6 form" style=" border: 1px solid grey; border-radius: 60px 70px 40px 140px; height: 370px; background: radial-gradient(circle,#d4c0d9 0%, rgb(219, 95, 219) 100%); ">
-                <table>
-                    <tr>
-                        <td>Course Name</td>
-                        <td>TNPSC</td>
+        <div class="row text-center" style="display: flex; justify-content: space-evenly; font-size: 25px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-style: oblique;">
+            <div class="q-pa-md col-12 col-md-6">
+                <q-card class="my-card">
+                    <q-parallax src="https://assets.thehansindia.com/h-upload/2019/10/28/230255-1.webp" :height="250" />
 
-                    </tr>
-
-                    <tr>
-                        <td>Price</td>
-                        <td>60,000</td>
-                    </tr>
-                    <tr>
-                        <td>Discount-50%</td>
-                        <td>30,000</td>
-                    </tr>
-                    <tr>
-                        <td>Last Price</td>
-                        <td>30,000</td>
-                    </tr>
-                    <tr>
-                        <td>Duration</td>
-                        <td>6 Months</td>
-                    </tr>
-                </table>
+                    <q-card-section>
+                        <div class="text-h6">50% off on TNPSC</div>
+                        <div class="text-subtitle2"><strike>60,000</strike>30,000/-</div>
+                    </q-card-section>
+                </q-card>
             </div>
-            <div class="col-12 col-md-6 form" style="border: 1px solid grey; border-radius: 60px 70px 140px 40px; height: 370px; background: radial-gradient(circle,#d4c0d9 0%, rgb(219, 95, 219) 100%);">
+            <div class="col-12 col-md-6 form" style="border: 1px solid grey; border-radius: 60px 100px 100px 40px; height: 370px; background: lightcoral">
 
                 <form class="q-pl-lg  text-center">
                     <div style="">
@@ -129,7 +115,7 @@
 
                                     <div class="q-mt-sm">
                                         <q-btn class="q-ml-sm" label="Submit" type="submit" rounded style="background-color: purple 25%; color: whitesmoke;" />
-                                        <q-btn label="Reset" type="reset" style="color= purple;"  flat class="q-ml-sm" />
+                                        <q-btn label="Reset" type="reset" style="color= purple;" flat class="q-ml-sm" />
                                     </div>
                                 </q-form>
 
@@ -188,22 +174,21 @@
 
         <br><br>
 
-
     </div>
 
-<!-- Footer        -->
-    <div class="text-center q-pt-lg" style="background-color: grey;">
-            <div class="q-pb-lg">
-                Chennai:+91-8099765311 | Madurai:+91-73382675110 | Coimbatore:+91-9841422357 | Trichy:+91-6345567901 | Salem:+91-8277701223
-            </div>
-            <div>
-                <a>Terms & Conditions | </a>
-                <a>Privacy Policy | </a>
-                <a>Refund/Cancellation Policy</a>
-                <a>Terms of Use</a>
-            </div>
-            <br>
+    <!-- Footer        -->
+    <div class="text-center q-pt-lg" style="background-color: #05386B; color:aliceblue;">
+        <div class="q-pb-lg" style="">
+            Chennai:+91-8099765311 | Madurai:+91-73382675110 | Coimbatore:+91-9841422357 | Trichy:+91-6345567901 | Salem:+91-8277701223
         </div>
+        <div>
+            <a>Terms & Conditions | </a>
+            <a>Privacy Policy | </a>
+            <a>Refund/Cancellation Policy</a>
+            <a>Terms of Use</a>
+        </div>
+        <br>
+    </div>
 
 </q-page>
 </template>
@@ -226,6 +211,13 @@ export default {
     // background-image: url("");
 }
 
+.card {
+    border-radius: 10%;
+    filter: drop-shadow(0 0 0.49rem grey);
+    background-color: #d4c0d9;
+
+}
+
 .cname {
     font-family: 'Times New Roman', Times, serif;
     // text-wrap: nowrap;
@@ -246,9 +238,9 @@ export default {
 
 .trial:hover {
     letter-spacing: 3px;
-    background-color: purple;
+    background-color: #05386B;
     color: aliceblue;
-    box-shadow: purple 0px 7px 29px 0px;
+    box-shadow: blue 0px 7px 29px 0px;
 
 }
 
@@ -258,40 +250,33 @@ td {
 
 }
 
-.card:hover {
-    border-radius: 10% 20% / 70% 80%;
-    -webkit-transition: border-radius 1s;
-    transition: border-radius 1s;
-    margin-top: 5px;
-    font-style:italic;
-}
-
 .form:hover {
     padding-right: 5px;
     filter: brightness(110%);
     color: white;
 }
 
-.cd:hover{
-  filter: drop-shadow(0 0 0.99rem black);
+.cd:hover {
+    filter: drop-shadow(0 0 0.99rem rgb(143, 143, 228));
 
 }
 
-
-
 @media screen and (max-width:1000px) {
     .trial {
-      margin-left: 10px;
-      size: 30px;
+        margin-left: 10px;
+        size: 30px;
     }
-    .image1{
-      width: 300px;
+
+    .image1 {
+        width: 300px;
     }
-    .cname{
-      font-weight: 500;
+
+    .cname {
+        font-weight: 500;
     }
-    .join{
-      margin-left: 66px;
+
+    .join {
+        margin-left: 66px;
     }
 }
 </style>
